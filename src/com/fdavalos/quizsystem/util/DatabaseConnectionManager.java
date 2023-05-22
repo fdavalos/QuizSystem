@@ -19,7 +19,7 @@ import java.sql.SQLException;
  * </p>
  */
 public class DatabaseConnectionManager {
-    private static final String jdbcUrl = "jdbc:sqlite:/C:/SQLite/usersdb.db";
+    private static final String jdbcUrl = "jdbc:sqlite:usersdb.db";
     private static final int maxPoolSize = 10;
     private static final String poolName = "QuizSystemPool";
 
